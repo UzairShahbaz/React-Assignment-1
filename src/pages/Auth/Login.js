@@ -4,7 +4,7 @@ const initialState = { email: "", password: "" };
 
 export default function Login({ setPage, setMessage }) {
     const [state, setState] = useState(initialState);
-    const [error, setError] = useState("");
+   
 
     const handleChange = e => setState(s => ({ ...s, [e.target.name]: e.target.value }));
 
