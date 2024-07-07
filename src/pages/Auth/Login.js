@@ -22,7 +22,7 @@ export default function Login({ setPage, setMessage }) {
         <main className='auth-main'>
             <div className="auth-container">
                 <h1 className='auth-title'>Login</h1>
-                {error && <div className="error-message">{error}</div>}
+               
                 <input 
                     type="email" 
                     placeholder='Enter email' 
